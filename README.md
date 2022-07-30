@@ -1,1 +1,1 @@
-# tour_planer
+# tour_planner
