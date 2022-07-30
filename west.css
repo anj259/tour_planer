@@ -1,0 +1,25 @@
+body{
+    background-color: #a69de5;
+}
+
+
+.container{
+    width:908px;
+    margin:20px auto;
+    padding :20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img{
+    width:363px;
+    margin:50px;
+    box-shadow: 0 5px 10px 0;
+    text-align:center;
+    background-color: pink;
+   
+}
+.index{
+    text-decoration:none;
+    font-size: 30px;
+}
