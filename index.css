@@ -1,0 +1,55 @@
+body {
+    /* background-image:linear-gradient(to left,#db3737,pink,#4c4cc5,#49e549,#ebeb4b); */
+    background-image: linear-gradient(to left,#76efe4,#1db9aa,#3b8d85,#1d6861,#0c3c38);
+    /* background-image: url(images/train.jpeg); */
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-attachment: fixed;
+    /* background-size : height  width  */
+    background-size : 100% 100%;
+}
+
+section{
+        border: 2px solid black ;
+        height: 274px;
+        width: 315px;
+        margin-top: 12%;
+        margin-left: 39%;
+}
+
+h2{
+    margin-left: 86px;
+    margin-top: 30px;
+    margin-bottom: 34px;
+    color: black;
+}
+#name{
+    margin-left: 51px;
+    background-color: #c8c4d1;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.login{
+    margin-left: 105px;
+    width: 78px;
+    border-radius: 12px;
+    padding: 5px;
+
+}
+
+h1{
+    margin-bottom: -60px;
+    text-align: center;
+    margin-top: 94px;
+    font-size: 60px;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    0%   {letter-spacing: 20px;opacity: 100%;}
+    50%  {letter-spacing: 80px;opacity: 30%;}
+    60%  {letter-spacing: 80px;opacity: 20%;}
+    100% {letter-spacing: 20px;opacity: 100%;}
+}
